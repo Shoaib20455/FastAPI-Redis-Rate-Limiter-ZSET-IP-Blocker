@@ -63,6 +63,7 @@ pip install -r requirements.txt
 Start the Uvicorn server to host your FastAPI application locally:
 
 ```bash
+sudo service redis start
 uvicorn main:app --reload
 ```
 
